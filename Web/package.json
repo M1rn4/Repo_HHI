@@ -213,6 +213,7 @@
     "http-cache-semantics": "^4.1.0",
     "http-errors": "^2.0.0",
     "http-proxy-agent": "^5.0.0",
+    "http-server": "^14.1.1",
     "http2-wrapper": "^1.0.3",
     "https": "^1.0.0",
     "https-proxy-agent": "^5.0.1",
