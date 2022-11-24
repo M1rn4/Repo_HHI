@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 800px)"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <a href="#" class="logo">Our project</a>
+        <a href="#" id="button-hamburger"><img class="hamburger" src="./image/Enabled.png" alt="Navigation menu"></a>
+        <div class="nav-menu" id="navbar-options">
+          <div class="hidden" id="x">
+            <a href="#" class="links">X</a>
+          </div>
+          <ul class="nav-menu-ul">
+            <li class="links" id="links-p"><a href="#Portfolio">Home</a></li>
+            <li class="links" id="links-a"><a href="#About">About</a></li>
+            <li class="links" id="links-c"><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="header">
+        <h1 class="header_title">We are..., <br class="space">  Welcome our project...</h1>
+        <p class="header-presentation">
+          It's a plataform that help to ...
+        </p>
+        <a href="#" class="final_msj">LET'S CONNECT</a>
+        <ul class="header_list">
+          <li>
+            <a href="#" class="header_icon"
+              ><img src="./image/twitter_icon.png" alt="twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="header_icon"
+              ><img src="./image/Linkedin icon.png" alt="linkedin icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="header_icon"
+              ><img src="./image/m_icon.png" alt="medium icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="header_icon"
+              ><img src="./image/github_icon.png" alt="github icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="header_icon"
+              ><img src="./image/V_icon.png" alt="AngelList icon"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="works" id="Portfolio">
+      </section>
+  
+      <section class="sectionForm"  id="Contact">
+        <div class="form">
+            <h2 class="form-title">Contact me</h2>
+            <p class="form-parragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
+          <form class="form-form" action="https://formspree.io/f/xlevbkay" method="post" onsubmit="return formSubmit();">
+            <ul class="ul-form">
+              <label for="names" hidden="hidden" >Name</label>
+              <input class="text-input"
+                type="text"
+                name="name"
+                placeholder="   Alexandra Loremipsum"
+                maxlength="30"
+                id="names"
+                required
+                />
+              <label for="emails" hidden="hidden">Email</label>
+              <input class="email-input"
+                  type="email"
+                  name="email"
+                  id="emails"
+                  placeholder="   alexandra@gmail.com"
+                  required
+              />
+              <label for="message" hidden="hidden">Message</label>
+              <textarea class="textarea"
+                  type="text"
+                  name="message"
+                  rows="10"
+                  cols="30"
+                  maxlength="500"
+                  placeholder="   Write your message here"
+                  required
+              ></textarea>
+            </ul>
+            <p class="error">The email should be lower case</p>
+            <button class="button-form" type="submit">Get in touch</button>
+          </form>
+        </div>
+      </section>
+    </main>   
+    <script src="./javascript/mobile-menu.js"></script>
+    <!-- <script src="./javaScript/popup.js"></script>
+     -->
+    <div class="modal-container"> </div>
+    <script src="./javascript/works.js"></script>
+    <script src="./javascript/simple_validation_local_storage.js""></script>
+  </body>
+</html>
