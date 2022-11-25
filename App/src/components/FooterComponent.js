@@ -17,9 +17,6 @@ class FooterComponent extends React.Component {
                             <a className="p-ripple cursor-pointer block text-700 py-2 px-3 transition-colors transition-duration-150 hover:surface-300 border-round hover:text-900">ABOUT<Ripple /></a>
                             <a className="p-ripple cursor-pointer block text-700 py-2 px-3 transition-colors transition-duration-150 hover:surface-300 border-round hover:text-900">CONTACT<Ripple /></a>
                         </div>
-                        <div className="mt-3 sm:mt-0">
-                            <img src="../assets/images/bastion-700.svg" alt="Image" height="40" />
-                        </div>
                     </div>
                 </div>
             </div>        
