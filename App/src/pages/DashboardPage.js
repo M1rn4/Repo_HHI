@@ -343,13 +343,13 @@ class  DashboardPage extends React.Component {
                                     </div>
                                     <div className="text-500 flex align-items-center">
                                         <i className="pi pi-heart mr-1"></i>
-                                        <span className="mr-3">26</span>
+                                        <span className="mr-3">16</span>
 
                                         <i className="pi pi-comment mr-1"></i>
                                         <span className="mr-3">6</span>
 
                                         <i className="pi pi-eye mr-1"></i>
-                                        <span>673</span>
+                                        <span>23</span>
                                     </div>
                                 </div>
                             </div>
@@ -371,10 +371,10 @@ class  DashboardPage extends React.Component {
                                     </div>
                                     <div className="text-500 flex align-items-center">
                                         <i className="pi pi-heart mr-1"></i>
-                                        <span className="mr-3">62</span>
+                                        <span className="mr-3">6</span>
 
                                         <i className="pi pi-comment mr-1"></i>
-                                        <span className="mr-3">36</span>
+                                        <span className="mr-3">13</span>
 
                                         <i className="pi pi-eye mr-1"></i>
                                         <span>21</span>
